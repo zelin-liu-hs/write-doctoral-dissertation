@@ -1,0 +1,4 @@
+interface:
+  display_name: "博士大论文写作与优化"
+  short_description: "依照韩艺老师方法完成博士论文写作、诊断、重构与DOCX交付"
+  default_prompt: "使用 $write-doctoral-dissertation 读取我的论文材料，诊断并优化博士大论文，核验引用后交付 DOCX。"
