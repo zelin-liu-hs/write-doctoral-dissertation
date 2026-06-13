@@ -1,6 +1,6 @@
 ---
 name: write-doctoral-dissertation
-description: Write, diagnose, restructure, or optimize a Chinese doctoral dissertation using Han Yi's distilled dissertation-writing workflow. Use when the user asks to write or revise a 博士大论文、博士学位论文、学位论文整体结构、绪论、文献综述、理论框架、研究设计、实证章节、摘要、结论或创新点; when Codex must read dissertation materials and literature from DOCX, PDF, Markdown, spreadsheets, or notes; or when the final deliverable should be a traceable DOCX. Enforce evidence-backed claims, dissertation-level logic closure, reviewer-style methodological scrutiny, and non-fabricated citations.
+description: Write, diagnose, restructure, or optimize a Chinese doctoral dissertation using Han Yi's recording- and classroom-PPT-verified dissertation-writing workflow. Use when the user asks to write or revise a 博士大论文、博士学位论文、学位论文整体结构、绪论、文献综述、理论框架、研究设计、实证章节、摘要、结论或创新点; when Codex must read dissertation materials and literature from DOCX, PDF, Markdown, spreadsheets, or notes; or when the final deliverable should be a traceable DOCX. Enforce evidence-backed claims, dissertation-level logic closure, reviewer-style methodological scrutiny, and non-fabricated citations.
 ---
 
 # 博士大论文写作与优化
@@ -12,8 +12,9 @@ description: Write, diagnose, restructure, or optimize a Chinese doctoral disser
 ## 必读资源
 
 1. 每次触发后先读 `references/han-yi-doctoral-writing-method.md`，据此确定问题链、章节功能、检查清单和写作模板。
-2. 需要核对老师原意、课程边界或蒸馏稿中的不确定点时，再读 `references/han-yi-course-transcript.md`。不要把校订转写改写成未经确认的逐字引语。
-3. 任何涉及引文、参考文献或事实性表述的任务，都读 `references/citation-and-evidence-rules.md`。
+2. 需要准确使用“研究九问”、摘要五要素、目录六项要求或课堂 PPT 中的方法提醒时，读 `references/han-yi-classroom-slides-notes.md`。
+3. 需要核对老师现场解释、课程边界或蒸馏稿中的不确定点时，再读 `references/han-yi-course-transcript.md`。不要把校订转写或 PPT 文字改写成未经确认的逐字引语。
+4. 任何涉及引文、参考文献或事实性表述的任务，都读 `references/citation-and-evidence-rules.md`。
 
 ## 工作原则
 
@@ -24,6 +25,8 @@ description: Write, diagnose, restructure, or optimize a Chinese doctoral disser
 - 不覆盖原始论文、原始数据或原始文献。所有改写稿、分析数据和输出另存。
 - 不把相关性写成因果性，不用显著性替代理论解释。
 - 不机械套用八章结构、混合方法、母本概念或 PSM-DID。章节和方法必须由研究问题决定。
+- 把“研究九问”、摘要五要素和目录六项要求作为功能性诊断框架，不把它们误用为所有学校和学科统一的固定版式。
+- 不用 CiteSpace、VOSviewer 图谱或汇总表代替原文阅读、理论比较和批判性述评。
 - 不虚构文献、作者、年份、题名、期刊、页码、DOI、政策、数据、访谈、统计结果或论文内容。
 - 无法核验的内容标为 `【待核验】`；需要文献但尚未找到可靠来源的句子标为 `【待补文献】`。
 
@@ -65,17 +68,19 @@ description: Write, diagnose, restructure, or optimize a Chinese doctoral disser
 
 ### 第四步：重建论文问题链
 
-先用一页纸写清：
+先按课堂 PPT 的顺序逐项回答“研究九问”：
 
-1. 研究对象；
-2. 理论或制度预期；
-3. 经验事实；
-4. 二者张力；
-5. 一个核心问题；
-6. 按认知顺序排列的子问题；
-7. 三类最接近的文献及解释边界；
-8. 可获得证据；
-9. 有限、可定位的理论增量。
+1. 我有一个好的问题吗？
+2. 前人如何解释这个问题？
+3. 我如何解释这个问题？
+4. 我的解释逻辑自洽吗？
+5. 我的解释是新的吗？
+6. 我的解释更优吗？
+7. 有经验证据支持吗？
+8. 有何政策实践意义？
+9. 有何理论学术贡献？
+
+任何一问无法用一句具体、可核验的话回答，都意味着相应环节尚未完成。完成九问后，再用一页纸记录研究对象、理论或制度预期、经验事实、二者张力、一个核心问题、按认知顺序排列的子问题、三类最接近的文献及解释边界、可获得证据和有限理论增量。
 
 建立“问题—缺口—理论—概念—证据—方法—章节—发现—结论/创新”矩阵。没有证据的问题应删除或补证；没有问题承载的章节应合并、重构或删除。
 
@@ -95,6 +100,10 @@ description: Write, diagnose, restructure, or optimize a Chinese doctoral disser
 10. 结论是否逐项回应问题，创新是否能在正文中定位。
 
 对每个问题写明：问题是什么、为什么构成问题、如何修改、可替代方案。
+
+摘要至少检查五个功能要素：研究背景与问题、理论视角与分析框架、研究方法、从问题到结论的推进逻辑、按问题或章节逻辑排列的主要结论。
+
+目录至少检查六项功能：必要的学理分析章；提出—分析—解决的章节闭环；必要的对象历史、演变或现状；经验章与分析框架逐项对应；方法贯穿主体论证；结论完成问题回溯、理论对话、创新与实践启示。
 
 ### 第六步：分阶段写作
 
@@ -124,6 +133,10 @@ description: Write, diagnose, restructure, or optimize a Chinese doctoral disser
 
 定性研究检查案例选择、材料饱和、负例、过程证据、编码透明度和替代解释。混合方法检查两类方法是否共享问题和构念、概念如何转化为变量、证据冲突如何处理。
 
+方法部分不能只列名称。半结构访谈至少说明对象、样本量、核心议题和分析过程；案例或文本分析至少说明选择规则、材料来源和编码过程。把文献梳理视为研究基础和理论准备，除非目标学科规范明确认可，否则不要把“文献研究法”包装成核心经验识别方法。
+
+多案例研究需要说明量化描述与质性阐释如何互补，并让本章发现为下一章留下需要继续回答的问题。
+
 ### 第八步：执行引用审计
 
 1. 逐项核对文内引文与文末参考文献。
@@ -144,6 +157,7 @@ description: Write, diagnose, restructure, or optimize a Chinese doctoral disser
 - 结论强度不超过证据和识别策略；
 - 非显著结果、失败案例、限制和不确定性未被隐藏；
 - 引用真实、可定位，参考文献与正文一一对应；
+- 最终发现与初始分析框架已对照，明确哪些关系得到支持、修正或扩展；
 - 原始文件未被覆盖；
 - 修改稿与原稿之间有变更说明。
 
